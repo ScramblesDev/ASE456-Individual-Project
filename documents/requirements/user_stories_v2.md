@@ -1,16 +1,16 @@
-# Requirements (User Stories) - ver. 1
+# Requirements (User Stories) - ver. 2
 
 ## User Story 1
-As a user, I want to customize the duration of work and break intervals. I would like to set a preferred duration for my timer. This can be through a button, a drop-down, or something similar. I would just like to be able to control it.
+As a user who values productivity, I want the ability to customize the duration of my work and break intervals within the Pomodoro app. This customization should be easily accessible, either through a dedicated settings page or a prominent button on the timer interface. By having the option to set my preferred duration, I can tailor the app to match my specific workflow and concentration levels.
 
 # User Story 2
-As a user, I want to keep track of my time. I would like a person account to be made, to which it will save my recorded times. I should be able to go back to it, so that upon logging back in, my previous sessions have been logged.
+As a user committed to tracking my work habits and progress, I seek the functionality to create a personal account within the Pomodoro app. This account should allow me to save and log my recorded Pomodoro sessions, providing a comprehensive record of my work history. This feature will empower me to monitor my productivity over time, set goals, and assess my performance, ultimately helping me become more organized and efficient in my work.
 
 # User Story 3
-As a color-sensitive user, I want to make a dark and light mode for the background of my app. This should change the background (and text if needed) accordingly, upon pressing the toggle button.
+As a user with sensitivity to screen brightness and color, I value the option to switch between dark and light modes within the Pomodoro app. This feature should seamlessly transition the app's background and text color scheme based on my preference, which I can easily toggle with a dedicated button. The ability to personalize the app's appearance contributes to a more enjoyable and accommodating user experience.
 
 # User Story 4
-As a user who values customization, I would like to change the image of the fruit/vegetable that is displayed based on my preference. This should be consistent throughout the use of the application.
+As a user who appreciates personalization and aesthetics, I desire the capability to customize the visual theme of the Pomodoro app by selecting my preferred image of a fruit or vegetable. This choice should persist consistently throughout my interaction with the application, from the initial screen to the timer display. Such visual personalization enhances my overall user experience and makes the app feel uniquely mine.
 
-# User Story 4
-As a user who needs to hear an auditory queue, I would like a timer that plays a sound for the intervals, as well as when the timer ends. The sound would need to be reasonably loud, but pleasant to the ears.
+# User Story 5
+As a user who relies on auditory cues for time management, I require the Pomodoro app to incorporate audible notifications into its timer functionality. Specifically, I expect the app to emit distinct and pleasant sounds to signal the beginning and end of each work and break interval. These auditory cues should be sufficiently loud to capture my attention without being jarring, contributing to a productive and harmonious work environment.
