@@ -1,0 +1,16 @@
+# Requirements (User Stories) - ver. 1
+
+## User Story 1
+As a user, I want to customize the duration of work and break intervals. I would like to set a preferred duration for my timer. This can be through a button, a drop-down, or something similar. I would just like to be able to control it.
+
+# User Story 2
+As a user, I want to keep track of my time. I would like a person account to be made, to which it will save my recorded times. I should be able to go back to it, so that upon logging back in, my previous sessions have been logged.
+
+# User Story 3
+As a color-sensitive user, I want to make a dark and light mode for the background of my app. This should change the background (and text if needed) accordingly, upon pressing the toggle button.
+
+# User Story 4
+As a user who values customization, I would like to change the image of the fruit/vegetable that is displayed based on my preference. This should be consistent throughout the use of the application.
+
+# User Story 4
+As a user who needs to hear an auditory queue, I would like a timer that plays a sound for the intervals, as well as when the timer ends. The sound would need to be reasonably loud, but pleasant to the ears.
