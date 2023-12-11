@@ -1,0 +1,48 @@
+Code Smells
+
+Lack of Modularity
+The prototype has all functionalities crammed into a single file, making it less manageable. This was addressed by separating concerns into different files (e.g., TimerLogic.dart, AudioManager.dart, FruitManager.dart).
+
+Hardcoded Values
+The prototype version uses hardcoded values for timer duration, which was later made configurable in TimerLogic.dart.
+
+Limited Functionality
+The prototype version only has basic timer functions, lacking features like fruit image changing or audio notifications.
+
+User Interface Limitations
+The initial app had a very basic UI without interactive elements like a progress bar or dynamic background colors.
+
+Global State Management
+The state management in the prototype is more local and simplistic, which was later improved for better state handling and UI updates.
+
+Code Duplication
+The original version had some repetitive code patterns, which were later refactored to be more DRY (Don't Repeat Yourself).
+
+Lack of Abstraction
+The first version had a lack of abstraction layers, making it harder to modify or extend functionalities.
+
+Single Responsibility Principle Violation
+The initial _PomodoroTimerState class handled too many responsibilities. This was later refactored to separate classes handling specific functionalities.
+
+Hardcoded Asset References
+Direct references to assets like sounds or images were used, which was later improved by managing them through a dedicated class (FruitManager.dart).
+
+Scalability Issues
+The prototype wasn't designed with scalability in mind, which was addressed in the later version by using more modular and extendable code structures.
+
+
+Refactoring Methods
+Extract Class
+Functionality related to audio, fruit images, and timer logic was extracted into separate classes (AudioManager, FruitManager, TimerLogic).
+
+Module Pattern
+Dividing the application into modules (main.dart, AudioManager.dart, FruitManager.dart, TimerLogic.dart), each responsible for a distinct feature.
+
+State Encapsulation
+Encapsulating the state within respective classes to manage their own state and behaviors.
+
+Parameterize Method
+Making methods more flexible by parameterizing them, as seen in the timer logic and fruit image management.
+
+Replace Magic Literal
+Replacing hardcoded values (like duration) with named constants or configurable parameters.

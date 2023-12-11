@@ -1,0 +1,10 @@
+Design Patterns
+
+Singleton
+The use of single instances in classes like AudioManager ensures a single point of control for specific functionalities.
+
+State Pattern
+Managing the state of the timer and UI elements dynamically, reflecting different states of the application.
+
+Observer Pattern
+The Flutter framework inherently uses the Observer pattern for state management. The UI listens for state changes and updates accordingly, as evident in the use of setState to refresh the UI based on timer updates.
