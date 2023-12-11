@@ -28,7 +28,7 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
   Duration remaining = duration;
   AudioPlayer audioPlayer = AudioPlayer();
 
-  // List of fruit and vegetable images
+  // list of fruits and vegetables
   final List<String> images = [
     'tomato.png',
     'pear.png',
@@ -43,16 +43,16 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
     switch (images[currentImageIndex]) {
       case 'tomato.png':
       case 'apple.png':
-        return Color.fromRGBO(255, 182, 193, 0.3); // Light Pink
+        return Color.fromRGBO(255, 182, 193, 0.3); // light Pink
       case 'cucumber.png':
       case 'pear.png':
-        return Color.fromRGBO(144, 238, 144, 0.3); // Light Green
+        return Color.fromRGBO(144, 238, 144, 0.3); // light Green
       case 'lemon.png':
-        return Color.fromRGBO(255, 247, 153, 0.3); // Light Yellow
+        return Color.fromRGBO(255, 247, 153, 0.3); // light Yellow
       case 'orange.png':
-        return Color.fromRGBO(255, 165, 0, 0.2); // Light Orange
+        return Color.fromRGBO(255, 165, 0, 0.2); // light Orange
       default:
-        return Colors.white; // Default color
+        return Colors.white;
     }
   }
 
@@ -98,7 +98,7 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Simple Pomodoro Timer'),
+        title: Text('Pomodoro Timer'),
       ),
       backgroundColor: getBackgroundColor(),
       body: Center(
@@ -128,14 +128,13 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
                   onPressed: stopTimer,
                   child: Text('Reset'),
                 ),
-                SizedBox(height: 20), // Spacing
+                SizedBox(height: 20),
                 // The loading bar
                 Container(
                   width: progressBarWidth,
                   height: 20,
                   decoration: BoxDecoration(
-                    color: Colors
-                        .grey[300], // Background color of the progress bar
+                    color: Colors.grey[300],
                     borderRadius: BorderRadius.circular(10),
                   ),
                   alignment: Alignment.centerLeft,
@@ -143,13 +142,12 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
                     width: filledBarWidth,
                     height: 20,
                     decoration: BoxDecoration(
-                      color: Colors.white, // Filled part color
+                      color: Colors.white,
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
                 ),
-                SizedBox(height: 20), // Additional spacing
-                // ... other widgets ...
+                SizedBox(height: 20),
               ],
             ),
           ],
